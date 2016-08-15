@@ -15,5 +15,5 @@
 
 # Configuration for the MariaDB JDBC framework
 ---
-version: 0.+
+# version: 0.+
 repository_root: "http://aboyko-ide-jar-server.cfapps.io/ide"
