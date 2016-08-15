@@ -28,7 +28,7 @@ module JavaBuildpack
         super(context)
 
         @version = '0.0.1'
-        @uri     = 'http://aboyko-ide-jar-server.cfapps.io/ide/ide-'
+        @uri     = 'http://aboyko-ide-jar-server.cfapps.io/ide/ide-0.0.1.jar'
       end
 
 
