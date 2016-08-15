@@ -27,7 +27,7 @@ module JavaBuildpack
       def initialize(context, &version_validator)
         super(context)
 
-        @version = '0.0.1-SNAPSHOT'
+        @version = '0.0.1'
         @uri     = 'http://aboyko-ide-jar-server.cfapps.io/'
       end
 
