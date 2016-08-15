@@ -39,8 +39,7 @@ module JavaBuildpack
 
       # (see JavaBuildpack::Component::VersionedDependencyComponent#supports?)
       def supports?
-        #service? && !driver?
-        true
+        service? && !driver?
       end
 
       private

@@ -24,12 +24,12 @@ module JavaBuildpack
     # Encapsulates the functionality for enabling the MariaDB JDBC client.
     class Ide < JavaBuildpack::Component::VersionedDependencyComponent
 
-      def initialize(context, &version_validator)
-        super(context)
-
-        @version = '0.0.1'
-        @uri     = 'http://aboyko-ide-jar-server.cfapps.io/'
-      end
+      # def initialize(context, &version_validator)
+      #   super(context)
+      #
+      #   @version = '0.0.1'
+      #   @uri     = 'http://aboyko-ide-jar-server.cfapps.io/'
+      # end
 
 
       # (see JavaBuildpack::Component::BaseComponent#compile)
