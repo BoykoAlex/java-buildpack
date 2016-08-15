@@ -35,6 +35,7 @@ module JavaBuildpack
       # (see JavaBuildpack::Component::BaseComponent#compile)
       def compile
         download_jar
+        print jar_name
         @droplet.additional_libraries << (@droplet.sandbox + jar_name)
       end
 
