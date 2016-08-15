@@ -35,8 +35,8 @@ module JavaBuildpack
       # (see JavaBuildpack::Component::BaseComponent#compile)
       def compile
         download_jar
-        print 'Hello from IDE framework component!'
-        print jar_name
+        print 'Hello from IDE framework component!\n'
+        print jar_name + '\n'
         @droplet.additional_libraries << (@droplet.sandbox + jar_name)
       end
 
