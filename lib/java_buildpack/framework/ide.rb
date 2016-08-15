@@ -27,8 +27,8 @@ module JavaBuildpack
       def initialize(context, &version_validator)
         super(context)
 
-        @version = '0.0.1'
-        @uri     = 'http://aboyko-ide-jar-server.cfapps.io/ide/ide-0.0.1.jar'
+        @version = '0.0.2'
+        @uri     = 'http://aboyko-ide-jar-server.cfapps.io/ide/ide-0.0.2.jar'
       end
 
 
@@ -36,7 +36,6 @@ module JavaBuildpack
       def compile
         download_jar
         @droplet.additional_libraries << (@droplet.sandbox + jar_name)
-        print @droplet.sandbox + jar_name + "\n"
       end
 
       # (see JavaBuildpack::Component::BaseComponent#release)
